@@ -1,4 +1,6 @@
 import { Poppins } from "next/font/google";
+
+import { GlobalProvider } from "@/context/GlobalContext";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -12,12 +14,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${poppins.className} bg-[#f8f8f8] max-w-[1440px] mx-auto antialiased`}
-      >
-        {children}
-      </body>
-    </html>
+    <GlobalProvider>
+      <html lang="en">
+        <body
+          className={`${poppins.className} bg-[#f8f8f8] max-w-[1440px] mx-auto antialiased`}
+        >
+          {children}
+        </body>
+      </html>
+    </GlobalProvider>
   );
 }
