@@ -11,8 +11,10 @@ const Filter = ({ heading, options }: FilterT) => {
   });
 
   return (
-    <div className="flex flex-col flex-1 gap-y-3">
-      <h3 className="p-2 font-semibold text-[18px]">{heading}</h3>
+    <div className="relative flex flex-col flex-1 justify-end gap-y-3">
+      <h3 className="p-2 font-semibold text-[18px] whitespace-nowrap">
+        {heading}
+      </h3>
       <ul className="bg-white border-1 border-gray-400 rounded-md w-full overflow-hidden">
         <li
           className="flex justify-between hover:bg-[#f3f3f3] p-2 cursor-pointer"
@@ -27,19 +29,22 @@ const Filter = ({ heading, options }: FilterT) => {
             className={`${expanded && "rotate-180"}`}
           />
         </li>
-        {expanded &&
-          options
-            .filter((option) => option !== selected)
-            .map((option) => (
-              <li
-                key={option}
-                value={option}
-                onClick={() => handleSelect(option)}
-                className="hover:bg-[#f3f3f3] p-2 cursor-pointer"
-              >
-                {option}
-              </li>
-            ))}
+
+        {expanded && (
+          <div className="right-0 left-0 z-10 absolute bg-white border-1 border-gray-400 rounded-md overflow-hidden">
+            {options
+              .filter((option) => option !== selected)
+              .map((option) => (
+                <li
+                  key={option}
+                  onClick={() => handleSelect(option)}
+                  className="hover:bg-[#f3f3f3] p-2 cursor-pointer"
+                >
+                  {option}
+                </li>
+              ))}
+          </div>
+        )}
       </ul>
     </div>
   );

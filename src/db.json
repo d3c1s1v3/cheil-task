@@ -6,7 +6,7 @@
     "functions": "EcoBubble, AI Control",
     "energeticClass": "A",
     "price": "3199",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW10T654DLH",
@@ -15,7 +15,7 @@
     "functions": "QuickDrive, Steam Wash",
     "energeticClass": "B",
     "price": "3499",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW90T654DLH",
@@ -24,7 +24,7 @@
     "functions": "AddWash, Digital Inverter",
     "energeticClass": "C",
     "price": "2999",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW80T554ABT",
@@ -33,7 +33,7 @@
     "functions": "EcoBubble, Hygiene Steam",
     "energeticClass": "D",
     "price": "2599",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW105T754ABT",
@@ -42,7 +42,7 @@
     "functions": "AI Control, AddWash",
     "energeticClass": "E",
     "price": "3799",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW90T534ABT",
@@ -51,7 +51,7 @@
     "functions": "Bubble Soak, Digital Inverter",
     "energeticClass": "F",
     "price": "2899",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW85T554ABT",
@@ -60,7 +60,7 @@
     "functions": "EcoBubble, Steam Wash",
     "energeticClass": "A",
     "price": "2699",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW90T654ABT",
@@ -69,7 +69,7 @@
     "functions": "QuickDrive, AddWash",
     "energeticClass": "B",
     "price": "3199",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW105T654DLH",
@@ -78,7 +78,7 @@
     "functions": "AI Control, Steam Wash",
     "energeticClass": "C",
     "price": "3899",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW80T654DLH",
@@ -87,7 +87,7 @@
     "functions": "AddWash, Hygiene Steam",
     "energeticClass": "D",
     "price": "2499",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW85T654DLH",
@@ -96,7 +96,7 @@
     "functions": "QuickDrive, Digital Inverter",
     "energeticClass": "E",
     "price": "2799",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW90T554ABT",
@@ -105,7 +105,7 @@
     "functions": "EcoBubble, AddWash",
     "energeticClass": "F",
     "price": "2999",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW75T434DBT",
@@ -114,7 +114,7 @@
     "functions": "Bubble Soak, Hygiene Steam",
     "energeticClass": "A",
     "price": "2299",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW12T854ABT",
@@ -123,7 +123,7 @@
     "functions": "AI Control, QuickDrive",
     "energeticClass": "B",
     "price": "4199",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW95T754DLH",
@@ -132,7 +132,7 @@
     "functions": "Steam Wash, Digital Inverter",
     "energeticClass": "C",
     "price": "3399",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW70T334ABT",
@@ -141,7 +141,7 @@
     "functions": "EcoBubble, AddWash",
     "energeticClass": "D",
     "price": "1999",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW110T954DBT",
@@ -150,7 +150,7 @@
     "functions": "Bubble Soak, AI Control",
     "energeticClass": "E",
     "price": "4599",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW82T654ABT",
@@ -159,7 +159,7 @@
     "functions": "QuickDrive, Hygiene Steam",
     "energeticClass": "F",
     "price": "2899",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW88T834DLH",
@@ -168,7 +168,7 @@
     "functions": "Steam Wash, AddWash",
     "energeticClass": "A",
     "price": "3099",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW65T254ABT",
@@ -177,7 +177,7 @@
     "functions": "EcoBubble, Digital Inverter",
     "energeticClass": "B",
     "price": "1799",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW98T854DLH",
@@ -186,7 +186,7 @@
     "functions": "AI Control, Bubble Soak",
     "energeticClass": "C",
     "price": "3699",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW77T434ABT",
@@ -195,7 +195,7 @@
     "functions": "QuickDrive, Steam Wash",
     "energeticClass": "D",
     "price": "2399",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW92T654DBT",
@@ -204,7 +204,7 @@
     "functions": "AddWash, Hygiene Steam",
     "energeticClass": "E",
     "price": "3299",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW115T954ABT",
@@ -213,7 +213,7 @@
     "functions": "EcoBubble, AI Control",
     "energeticClass": "F",
     "price": "4899",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW74T534DLH",
@@ -222,7 +222,7 @@
     "functions": "Digital Inverter, Bubble Soak",
     "energeticClass": "A",
     "price": "2199",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW86T754ABT",
@@ -231,7 +231,7 @@
     "functions": "Steam Wash, QuickDrive",
     "energeticClass": "B",
     "price": "2999",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW103T834DLH",
@@ -240,7 +240,7 @@
     "functions": "AddWash, AI Control",
     "energeticClass": "C",
     "price": "4099",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW72T454ABT",
@@ -249,7 +249,7 @@
     "functions": "EcoBubble, Hygiene Steam",
     "energeticClass": "D",
     "price": "2099",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW94T654DBT",
@@ -258,7 +258,7 @@
     "functions": "Bubble Soak, Digital Inverter",
     "energeticClass": "E",
     "price": "3499",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW68T334DLH",
@@ -267,7 +267,7 @@
     "functions": "QuickDrive, Steam Wash",
     "energeticClass": "F",
     "price": "1899",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW108T754ABT",
@@ -276,7 +276,7 @@
     "functions": "AI Control, AddWash",
     "energeticClass": "A",
     "price": "4399",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW79T534DLH",
@@ -285,7 +285,7 @@
     "functions": "EcoBubble, Hygiene Steam",
     "energeticClass": "B",
     "price": "2599",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW91T834ABT",
@@ -294,7 +294,7 @@
     "functions": "Steam Wash, Digital Inverter",
     "energeticClass": "C",
     "price": "3199",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW76T454DLH",
@@ -303,7 +303,7 @@
     "functions": "Bubble Soak, QuickDrive",
     "energeticClass": "D",
     "price": "2299",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   },
   {
     "model": "WW113T954DBT",
@@ -312,7 +312,7 @@
     "functions": "AddWash, AI Control",
     "energeticClass": "E",
     "price": "4699",
-    "imageUrl": "washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png"
   },
   {
     "model": "WW83T634ABT",
@@ -321,6 +321,6 @@
     "functions": "EcoBubble, Steam Wash",
     "energeticClass": "F",
     "price": "2799",
-    "imageUrl": "washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png"
   }
 ]
