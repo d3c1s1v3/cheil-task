@@ -15,7 +15,7 @@ export default function MainPage() {
       <SearchBox />
       <Filters />
       <div className="gap-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pt-12 w-full">
-        {data.map((card) => (
+        {data.slice(0, data.length / 2).map((card) => (
           <Card key={card.model} {...card} />
         ))}
       </div>

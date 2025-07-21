@@ -11,24 +11,27 @@ const Card = ({ ...card }: ProductT) => {
         {card.capacity}, biała
       </h3>
       <div className="self-start mt-12 leading-6">
-        <h4 className="text-[#767676] text-[12px]">
+        <p className="text-[#767676] text-[12px]">
           Pojemność (kg):{" "}
           <span className="font-semibold text-black">{card.capacity}</span>
-        </h4>
-        <h4 className="text-[#767676] text-[12px]">
+        </p>
+        <p className="text-[#767676] text-[12px]">
           Wymiary (GxSxW):{" "}
           <span className="font-semibold text-black">{card.size}</span>
-        </h4>
-        <h4 className="text-[#767676] text-[12px]">
+        </p>
+        <p className="text-[#767676] text-[12px]">
           Funkcje:{" "}
           <span className="font-semibold text-black">{card.functions}</span>
-        </h4>
-        <h4 className="mt-8 text-[#767676] text-[12px]">
+        </p>
+        <p className="mt-8 text-[#767676] text-[12px]">
           Klasa energetyczna:{" "}
-          <span className="bg-green-600 ml-2 pr-9 pl-1 text-white text-left [clip-path:polygon(0_0,87%_0,100%_50%,87%_100%,0_100%,0%_50%)]">
+          <span className="bg-[#009949] ml-2 pr-9 pl-1 text-white text-left [clip-path:polygon(0_0,87%_0,100%_50%,87%_100%,0_100%,0%_50%)]">
             {card.energeticClass}
           </span>
-        </h4>
+        </p>
+        <p className="mt-8 text-[#767676] text-[12px]">
+          Cena obowiązuje: 15.09.2022 - 21-09.2022
+        </p>
       </div>
     </div>
   );

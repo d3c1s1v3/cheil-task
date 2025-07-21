@@ -8,13 +8,12 @@ import db from "@/db.json";
 const GlobalContext = createContext<GlobalContextT | undefined>(undefined);
 
 export const GlobalProvider = ({ children }: PropsWithChildren<{}>) => {
-  const [data, setData] = useState(db);
+  const [data] = useState(db);
   const [results, setResults] = useState(db.length);
 
   const value = {
     data,
     results,
-    setData,
     setResults,
   };
 
