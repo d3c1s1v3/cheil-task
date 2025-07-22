@@ -17,7 +17,5 @@ export type ProductT = {
 
 export type GlobalContextT = {
   data: ProductT[];
-  // setData: Dispatch<SetStateAction<ProductT[]>>;
-  results: number;
-  setResults: Dispatch<SetStateAction<number>>;
+  setData: Dispatch<SetStateAction<ProductT[]>>;
 };

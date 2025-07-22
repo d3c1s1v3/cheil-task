@@ -2,19 +2,17 @@
 
 import { createContext, useContext, useState, PropsWithChildren } from "react";
 
-import type { GlobalContextT } from "@/types";
+import type { GlobalContextT } from "@/lib/types";
 import db from "@/db.json";
 
 const GlobalContext = createContext<GlobalContextT | undefined>(undefined);
 
-export const GlobalProvider = ({ children }: PropsWithChildren<{}>) => {
-  const [data] = useState(db);
-  const [results, setResults] = useState(db.length);
+export const GlobalProvider = ({ children }: PropsWithChildren<object>) => {
+  const [data, setData] = useState(db);
 
   const value = {
     data,
-    results,
-    setResults,
+    setData,
   };
 
   return (

@@ -1,6 +1,6 @@
-import type { FilterT } from "@/types";
+import type { FilterT } from "@/lib/types";
 
-export const filterData: FilterT[] = [
+export const filterTabs: FilterT[] = [
   {
     heading: "Sortuj po:",
     options: ["Wszystkie", "Cena", "Popularność"],
