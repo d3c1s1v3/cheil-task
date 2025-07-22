@@ -1,29 +1,29 @@
-"use client";
+// "use client";
 
-import { createContext, useContext, useState, PropsWithChildren } from "react";
+// import { createContext, useContext, useState, PropsWithChildren } from "react";
 
-import type { GlobalContextT } from "@/lib/types";
-import db from "@/db.json";
+// import type { GlobalContextT } from "@/lib/types";
+// import db from "@/db.json";
 
-const GlobalContext = createContext<GlobalContextT | undefined>(undefined);
+// const GlobalContext = createContext<GlobalContextT | undefined>(undefined);
 
-export const GlobalProvider = ({ children }: PropsWithChildren<object>) => {
-  const [data, setData] = useState(db);
+// export const GlobalProvider = ({ children }: PropsWithChildren<object>) => {
+//   const [data, setData] = useState(db);
 
-  const value = {
-    data,
-    setData,
-  };
+//   const value = {
+//     data,
+//     setData,
+//   };
 
-  return (
-    <GlobalContext.Provider value={value}>{children}</GlobalContext.Provider>
-  );
-};
+//   return (
+//     <GlobalContext.Provider value={value}>{children}</GlobalContext.Provider>
+//   );
+// };
 
-export const useGlobalContext = () => {
-  const context = useContext(GlobalContext);
-  if (context === undefined) {
-    throw new Error("useGlobalContext must be used within an GlobalProvider");
-  }
-  return context;
-};
+// export const useGlobalContext = () => {
+//   const context = useContext(GlobalContext);
+//   if (context === undefined) {
+//     throw new Error("useGlobalContext must be used within an GlobalProvider");
+//   }
+//   return context;
+// };

@@ -4,11 +4,7 @@ import { filterTabs } from "@/constants";
 import Filter from "./Filter";
 import { ProductT } from "@/lib/types";
 
-type Props = {
-  products: ProductT[];
-};
-
-const Filters = ({ products }: Props) => {
+const Filters = ({ products }: { products: ProductT[] }) => {
   return (
     <div className="relative mx-auto w-3/4">
       <div className="flex flex-wrap justify-between gap-x-8 pt-12 pb-8">
