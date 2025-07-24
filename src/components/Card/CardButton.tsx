@@ -1,16 +1,21 @@
-type Props = {
-  onClick?: () => void;
-  children?: React.ReactNode;
-};
+import { useState } from "react";
 
-const CardButton = ({ onClick, children }: Props) => {
+const CardButton = () => {
+  const [isSelected, setIsSelected] = useState(false);
+
+  const handleSelectClick = () => setIsSelected(!isSelected);
+
   return (
     <div className="mt-12 text-center w-full flex justify-center">
       <button
-        onClick={onClick}
-        className="cursor-pointer text-[14px] bg-[#1428A0] rounded-full text-white px-12 py-2 tracking-widest hover:bg-[#0f1f8a] transition-colors"
+        onClick={handleSelectClick}
+        className={`cursor-pointer text-[14px]  rounded-full text-white px-12 py-2 tracking-widest transition-colors ${
+          isSelected
+            ? "bg-[#1c1c1c] text-white"
+            : "bg-[#1428A0] text-white hover:bg-[#0f1f8a]"
+        }`}
       >
-        {children}
+        {isSelected ? "Wybrane" : "Wybierz"}
       </button>
     </div>
   );

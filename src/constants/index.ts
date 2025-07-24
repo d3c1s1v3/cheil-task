@@ -2,25 +2,29 @@ import type { FilterT } from "@/lib/types";
 
 export const filterTabs: FilterT[] = [
   {
-    heading: "Sortuj po:",
-    options: ["Wszystkie", "Cena", "Popularność"],
+    title: "Sortuj po:",
+    filterKey: "price",
+    options: ["Wszystkie", "Cena rosnąco", "Cena malejąco"],
   },
   {
-    heading: "Funkcje:",
+    title: "Funkcje:",
+    filterKey: "features",
     options: [
       "Wszystkie",
       "Drzwi AddWash",
       "Panel AI Control",
       "Silnik Inwerterowy",
-      "Wyświetlacz elektroniczny",
+      "Wyświetlacz Elektroniczny",
     ],
   },
   {
-    heading: "Klasa energetyczna:",
-    options: ["Wszystkie", "A", "B", "D"],
+    title: "Klasa energetyczna:",
+    filterKey: "energyClass",
+    options: ["Wszystkie", "A", "B", "C", "D"],
   },
   {
-    heading: "Pojemność:",
+    title: "Pojemność:",
+    filterKey: "capacity",
     options: ["Wszystkie", "8kg", "9kg", "10.5kg"],
   },
 ];

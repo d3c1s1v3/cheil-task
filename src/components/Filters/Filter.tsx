@@ -2,42 +2,55 @@
 
 import Image from "next/image";
 
-import type { FilterT } from "@/lib/types";
-import useFilters from "@/hooks/useFilters";
-import FilterTabs from "./FilterTabs";
+import { useFilter } from "@/hooks/useFilter";
 
-const Filter = ({ heading, options }: FilterT) => {
-  const { expanded, selected, handleSelect, setExpanded, tabsRef } =
-    useFilters(options);
+type FilterProps = {
+  title: string;
+  options: string[];
+  filterKey: string;
+};
+
+const Filter = ({ title, options, filterKey }: FilterProps) => {
+  const { displayValue, setIsExpanded, isExpanded, handleSelect } =
+    useFilter(filterKey);
 
   return (
-    <div className="relative flex flex-col flex-1 justify-end gap-y-3">
+    <div className="relative flex flex-col flex-1 basis-full md:basis-1/3 lg:basis-1/5 xl:basis-1/6 justify-end">
       <h3 className="p-2 font-semibold text-[18px] whitespace-nowrap">
-        {heading}
+        {title}
       </h3>
-      <ul className="bg-white border-1 border-gray-400 rounded-md w-full overflow-hidden select-none">
-        <li
+      <div className="bg-white border-1 border-gray-400 rounded-md w-full overflow-hidden select-none">
+        <div
           className="flex justify-between hover:bg-[#f3f3f3] p-2 cursor-pointer"
-          onClick={() => setExpanded((prev) => !prev)}
+          onClick={() => setIsExpanded((prev) => !prev)}
         >
-          <span>{selected}</span>
+          <span>{displayValue}</span>
           <Image
             src="/chevron-down.svg"
             alt="icon"
             width={13}
             height={13}
-            className={`${expanded && "rotate-180"}`}
+            className={`${isExpanded && "rotate-180"}`}
           />
-        </li>
+        </div>
 
-        {expanded && (
-          <FilterTabs
-            options={options}
-            handleSelect={handleSelect}
-            tabsRef={tabsRef}
-          />
+        {isExpanded && (
+          <div className="right-0 left-0 z-10 absolute bg-white border-1 border-gray-400 rounded-md overflow-hidden">
+            {options.map(
+              (option) =>
+                option !== displayValue && (
+                  <div
+                    key={option}
+                    onClick={() => handleSelect(option)}
+                    className="hover:bg-[#f3f3f3] p-2 cursor-pointer select-none"
+                  >
+                    {option}
+                  </div>
+                )
+            )}
+          </div>
         )}
-      </ul>
+      </div>
     </div>
   );
 };

@@ -1,19 +1,33 @@
 "use client";
 
-import { filterTabs } from "@/constants";
 import Filter from "./Filter";
-import { ProductT } from "@/lib/types";
+import { filterTabs } from "@/constants";
+import { useGlobalContext } from "@/contexts/GlobalContext";
 
-const Filters = ({ products }: { products: ProductT[] }) => {
+const Filters = () => {
+  const { filteredProducts, totalProductCount } = useGlobalContext();
+
   return (
     <div className="relative mx-auto w-3/4">
-      <div className="flex flex-wrap justify-between gap-x-8 pt-12 pb-8">
-        {filterTabs.map(({ heading, options }) => (
-          <Filter key={heading} heading={heading} options={options} />
+      <div className="flex flex-wrap justify-between gap-4 pt-12 pb-8">
+        {filterTabs.map(({ title, options, filterKey }) => (
+          <Filter
+            key={filterKey}
+            title={title}
+            options={options}
+            filterKey={filterKey}
+          />
         ))}
       </div>
       <span className="text-[14px]">
-        Liczba wyników: <span className="font-semibold">{products.length}</span>
+        {filteredProducts.length !== 0 ? (
+          <span>
+            Liczba wyników:{" "}
+            <span className="font-semibold">{totalProductCount}</span>
+          </span>
+        ) : (
+          <span className="font-semibold text-3xl">Brak wyników</span>
+        )}
       </span>
     </div>
   );

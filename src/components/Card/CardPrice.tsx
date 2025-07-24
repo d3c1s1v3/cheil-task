@@ -1,8 +1,8 @@
-type Props = {
+type CardPriceProps = {
   price: string;
 };
 
-const CardPrice = ({ price }: Props) => {
+const CardPrice = ({ price }: CardPriceProps) => {
   return (
     <div className="flex items-center mt-4">
       <span className="text-[40px] font-semibold">{price}</span>

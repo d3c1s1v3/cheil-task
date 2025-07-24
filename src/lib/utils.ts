@@ -1,6 +1,6 @@
 import { ProductT } from "./types";
 
-export const filterOnSearch = (
+export const searchOnType = (
   products: ProductT[],
   search: string
 ): ProductT[] => {

@@ -1,6 +1,8 @@
+"use client";
+
 import { Poppins } from "next/font/google";
 
-// import { GlobalProvider } from "@/contexts/GlobalContext";
+import { GlobalProvider } from "@/contexts/GlobalContext";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -14,14 +16,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // <GlobalProvider>
-    <html lang="en">
-      <body
-        className={`${poppins.className} bg-[#f8f8f8] max-w-[1440px] mx-auto antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-    // </GlobalProvider>
+    <GlobalProvider>
+      <html lang="en">
+        <body
+          className={`${poppins.className} bg-[#f8f8f8] max-w-[1440px] mx-auto antialiased text-sm sm:text-base`}
+        >
+          {children}
+        </body>
+      </html>
+    </GlobalProvider>
   );
 }

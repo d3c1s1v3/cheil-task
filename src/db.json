@@ -3,324 +3,360 @@
     "model": "WW90T754ABT",
     "capacity": "9kg",
     "size": "60x85x55cm",
-    "functions": "EcoBubble, AI Control",
-    "energeticClass": "A",
+    "features": ["Panel AI Control", "Wyświetlacz Elektroniczny"],
+    "energyClass": "A",
     "price": "3199",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 7
   },
   {
     "model": "WW10T654DLH",
     "capacity": "10.5kg",
     "size": "60x85x60cm",
-    "functions": "QuickDrive, Steam Wash",
-    "energeticClass": "B",
+    "features": ["Silnik Inwerterowy", "Drzwi AddWash"],
+    "energyClass": "B",
     "price": "3499",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 3
   },
   {
     "model": "WW90T654DLH",
     "capacity": "9kg",
     "size": "60x85x55cm",
-    "functions": "AddWash, Digital Inverter",
-    "energeticClass": "C",
+    "features": ["Wyświetlacz Elektroniczny", "Panel AI Control"],
+    "energyClass": "C",
     "price": "2999",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 8
   },
   {
     "model": "WW80T554ABT",
     "capacity": "8kg",
     "size": "60x85x50cm",
-    "functions": "EcoBubble, Hygiene Steam",
-    "energeticClass": "D",
+    "features": ["Drzwi AddWash", "Silnik Inwerterowy"],
+    "energyClass": "D",
     "price": "2599",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 2
   },
   {
     "model": "WW105T754ABT",
     "capacity": "10.5kg",
     "size": "60x85x65cm",
-    "functions": "AI Control, AddWash",
-    "energeticClass": "E",
+    "features": ["Panel AI Control", "Wyświetlacz Elektroniczny"],
+    "energyClass": "A",
     "price": "3799",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 9
   },
   {
     "model": "WW90T534ABT",
     "capacity": "9kg",
     "size": "60x85x55cm",
-    "functions": "Bubble Soak, Digital Inverter",
-    "energeticClass": "F",
+    "features": ["Silnik Inwerterowy", "Drzwi AddWash"],
+    "energyClass": "B",
     "price": "2899",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 4
   },
   {
     "model": "WW85T554ABT",
     "capacity": "8kg",
     "size": "60x85x52cm",
-    "functions": "EcoBubble, Steam Wash",
-    "energeticClass": "A",
+    "features": ["Panel AI Control", "Silnik Inwerterowy"],
+    "energyClass": "A",
     "price": "2699",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 6
   },
   {
     "model": "WW90T654ABT",
     "capacity": "9kg",
     "size": "60x85x55cm",
-    "functions": "QuickDrive, AddWash",
-    "energeticClass": "B",
+    "features": ["Wyświetlacz Elektroniczny", "Drzwi AddWash"],
+    "energyClass": "B",
     "price": "3199",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 1
   },
   {
     "model": "WW105T654DLH",
     "capacity": "10.5kg",
     "size": "60x85x65cm",
-    "functions": "AI Control, Steam Wash",
-    "energeticClass": "C",
+    "features": ["Drzwi AddWash", "Panel AI Control"],
+    "energyClass": "C",
     "price": "3899",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 10
   },
   {
     "model": "WW80T654DLH",
     "capacity": "8kg",
     "size": "60x85x50cm",
-    "functions": "AddWash, Hygiene Steam",
-    "energeticClass": "D",
+    "features": ["Silnik Inwerterowy", "Wyświetlacz Elektroniczny"],
+    "energyClass": "D",
     "price": "2499",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 5
   },
   {
     "model": "WW85T654DLH",
     "capacity": "8kg",
     "size": "60x85x52cm",
-    "functions": "QuickDrive, Digital Inverter",
-    "energeticClass": "E",
+    "features": ["Wyświetlacz Elektroniczny", "Silnik Inwerterowy"],
+    "energyClass": "A",
     "price": "2799",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 2
   },
   {
     "model": "WW90T554ABT",
     "capacity": "9kg",
     "size": "60x85x55cm",
-    "functions": "EcoBubble, AddWash",
-    "energeticClass": "F",
+    "features": ["Drzwi AddWash", "Panel AI Control"],
+    "energyClass": "B",
     "price": "2999",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 8
   },
   {
     "model": "WW75T434DBT",
     "capacity": "8kg",
     "size": "60x85x48cm",
-    "functions": "Bubble Soak, Hygiene Steam",
-    "energeticClass": "A",
+    "features": ["Panel AI Control", "Drzwi AddWash"],
+    "energyClass": "A",
     "price": "2299",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 7
   },
   {
     "model": "WW12T854ABT",
     "capacity": "10.5kg",
     "size": "60x85x70cm",
-    "functions": "AI Control, QuickDrive",
-    "energeticClass": "B",
+    "features": ["Silnik Inwerterowy", "Wyświetlacz Elektroniczny"],
+    "energyClass": "B",
     "price": "4199",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 9
   },
   {
     "model": "WW95T754DLH",
     "capacity": "9kg",
     "size": "60x85x58cm",
-    "functions": "Steam Wash, Digital Inverter",
-    "energeticClass": "C",
+    "features": ["Drzwi AddWash", "Panel AI Control"],
+    "energyClass": "C",
     "price": "3399",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 3
   },
   {
     "model": "WW70T334ABT",
     "capacity": "8kg",
     "size": "60x85x45cm",
-    "functions": "EcoBubble, AddWash",
-    "energeticClass": "D",
+    "features": ["Wyświetlacz Elektroniczny", "Silnik Inwerterowy"],
+    "energyClass": "D",
     "price": "1999",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 6
   },
   {
     "model": "WW110T954DBT",
     "capacity": "10.5kg",
     "size": "60x85x68cm",
-    "functions": "Bubble Soak, AI Control",
-    "energeticClass": "E",
+    "features": ["Panel AI Control", "Drzwi AddWash"],
+    "energyClass": "A",
     "price": "4599",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 4
   },
   {
     "model": "WW82T654ABT",
     "capacity": "8kg",
     "size": "60x85x51cm",
-    "functions": "QuickDrive, Hygiene Steam",
-    "energeticClass": "F",
+    "features": ["Silnik Inwerterowy", "Wyświetlacz Elektroniczny"],
+    "energyClass": "B",
     "price": "2899",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 5
   },
   {
     "model": "WW88T834DLH",
     "capacity": "9kg",
     "size": "60x85x54cm",
-    "functions": "Steam Wash, AddWash",
-    "energeticClass": "A",
+    "features": ["Drzwi AddWash", "Silnik Inwerterowy"],
+    "energyClass": "A",
     "price": "3099",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 1
   },
   {
     "model": "WW65T254ABT",
     "capacity": "8kg",
     "size": "60x85x42cm",
-    "functions": "EcoBubble, Digital Inverter",
-    "energeticClass": "B",
+    "features": ["Panel AI Control", "Wyświetlacz Elektroniczny"],
+    "energyClass": "B",
     "price": "1799",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 7
   },
   {
     "model": "WW98T854DLH",
     "capacity": "10.5kg",
     "size": "60x85x59cm",
-    "functions": "AI Control, Bubble Soak",
-    "energeticClass": "C",
+    "features": ["Wyświetlacz Elektroniczny", "Panel AI Control"],
+    "energyClass": "C",
     "price": "3699",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 10
   },
   {
     "model": "WW77T434ABT",
     "capacity": "8kg",
     "size": "60x85x49cm",
-    "functions": "QuickDrive, Steam Wash",
-    "energeticClass": "D",
+    "features": ["Drzwi AddWash", "Silnik Inwerterowy"],
+    "energyClass": "D",
     "price": "2399",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 2
   },
   {
     "model": "WW92T654DBT",
     "capacity": "9kg",
     "size": "60x85x56cm",
-    "functions": "AddWash, Hygiene Steam",
-    "energeticClass": "E",
+    "features": ["Panel AI Control", "Wyświetlacz Elektroniczny"],
+    "energyClass": "A",
     "price": "3299",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 8
   },
   {
     "model": "WW115T954ABT",
     "capacity": "10.5kg",
     "size": "60x85x72cm",
-    "functions": "EcoBubble, AI Control",
-    "energeticClass": "F",
+    "features": ["Silnik Inwerterowy", "Drzwi AddWash"],
+    "energyClass": "B",
     "price": "4899",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 6
   },
   {
     "model": "WW74T534DLH",
     "capacity": "8kg",
     "size": "60x85x47cm",
-    "functions": "Digital Inverter, Bubble Soak",
-    "energeticClass": "A",
+    "features": ["Panel AI Control", "Silnik Inwerterowy"],
+    "energyClass": "A",
     "price": "2199",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 3
   },
   {
     "model": "WW86T754ABT",
     "capacity": "9kg",
     "size": "60x85x53cm",
-    "functions": "Steam Wash, QuickDrive",
-    "energeticClass": "B",
+    "features": ["Wyświetlacz Elektroniczny", "Drzwi AddWash"],
+    "energyClass": "B",
     "price": "2999",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 9
   },
   {
     "model": "WW103T834DLH",
     "capacity": "10.5kg",
     "size": "60x85x63cm",
-    "functions": "AddWash, AI Control",
-    "energeticClass": "C",
+    "features": ["Drzwi AddWash", "Panel AI Control"],
+    "energyClass": "C",
     "price": "4099",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 4
   },
   {
     "model": "WW72T454ABT",
     "capacity": "8kg",
     "size": "60x85x46cm",
-    "functions": "EcoBubble, Hygiene Steam",
-    "energeticClass": "D",
+    "features": ["Silnik Inwerterowy", "Wyświetlacz Elektroniczny"],
+    "energyClass": "D",
     "price": "2099",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 5
   },
   {
     "model": "WW94T654DBT",
     "capacity": "9kg",
     "size": "60x85x57cm",
-    "functions": "Bubble Soak, Digital Inverter",
-    "energeticClass": "E",
+    "features": ["Wyświetlacz Elektroniczny", "Silnik Inwerterowy"],
+    "energyClass": "A",
     "price": "3499",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 8
   },
   {
     "model": "WW68T334DLH",
     "capacity": "8kg",
     "size": "60x85x44cm",
-    "functions": "QuickDrive, Steam Wash",
-    "energeticClass": "F",
+    "features": ["Drzwi AddWash", "Panel AI Control"],
+    "energyClass": "B",
     "price": "1899",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 2
   },
   {
     "model": "WW108T754ABT",
     "capacity": "10.5kg",
     "size": "60x85x66cm",
-    "functions": "AI Control, AddWash",
-    "energeticClass": "A",
+    "features": ["Panel AI Control", "Drzwi AddWash"],
+    "energyClass": "A",
     "price": "4399",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 7
   },
   {
     "model": "WW79T534DLH",
     "capacity": "8kg",
     "size": "60x85x50cm",
-    "functions": "EcoBubble, Hygiene Steam",
-    "energeticClass": "B",
+    "features": ["Silnik Inwerterowy", "Wyświetlacz Elektroniczny"],
+    "energyClass": "B",
     "price": "2599",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 6
   },
   {
     "model": "WW91T834ABT",
     "capacity": "9kg",
     "size": "60x85x56cm",
-    "functions": "Steam Wash, Digital Inverter",
-    "energeticClass": "C",
+    "features": ["Drzwi AddWash", "Panel AI Control"],
+    "energyClass": "C",
     "price": "3199",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 1
   },
   {
     "model": "WW76T454DLH",
     "capacity": "8kg",
     "size": "60x85x48cm",
-    "functions": "Bubble Soak, QuickDrive",
-    "energeticClass": "D",
+    "features": ["Wyświetlacz Elektroniczny", "Silnik Inwerterowy"],
+    "energyClass": "D",
     "price": "2299",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 4
   },
   {
     "model": "WW113T954DBT",
     "capacity": "10.5kg",
     "size": "60x85x69cm",
-    "functions": "AddWash, AI Control",
-    "energeticClass": "E",
+    "features": ["Panel AI Control", "Drzwi AddWash"],
+    "energyClass": "A",
     "price": "4699",
-    "imageUrl": "/washing-machine-1.png"
+    "imageUrl": "/washing-machine-1.png",
+    "popularity": 10
   },
   {
     "model": "WW83T634ABT",
     "capacity": "8kg",
     "size": "60x85x52cm",
-    "functions": "EcoBubble, Steam Wash",
-    "energeticClass": "F",
+    "features": ["Silnik Inwerterowy", "Wyświetlacz Elektroniczny"],
+    "energyClass": "B",
     "price": "2799",
-    "imageUrl": "/washing-machine-2.png"
+    "imageUrl": "/washing-machine-2.png",
+    "popularity": 5
   }
 ]
